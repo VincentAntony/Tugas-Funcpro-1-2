@@ -1,0 +1,1 @@
+sequenceGenerator = lambda start, stop: list(range(start, stop+1)); print(sequenceGenerator(1, 10)); fizzBuzz = lambda a, b: ['FizzBuzz' if i % 3 == 0 and i % 5 == 0 else 'Fizz' if i % 3 == 0 else 'Buzz' if i % 5 == 0 else i for i in range(a, b)]; twonumber = lambda zh: [zh[i] + zh[i+1] for i in range(len(zh) - 1)]
